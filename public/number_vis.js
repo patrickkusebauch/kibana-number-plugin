@@ -1,6 +1,6 @@
 import 'plugins/number_vis/number_vis.less';
 import 'plugins/number_vis/number_vis_controller';
-import TemplateVisTypeTemplateVisTypeProvider from 'ui/template_vis_type/template_vis_type';
+import TemplateVisTypeTemplateVisTypeProvider from 'ui/template_vis_type/TemplateVisType';
 import VisSchemasProvider from 'ui/vis/schemas';
 import numberVisTemplate from 'plugins/number_vis/number_vis.html';
 import numberVisParamsTemplate from 'plugins/number_vis/number_vis_params.html';
