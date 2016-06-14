@@ -1,7 +1,7 @@
 import uiModules from 'ui/modules';
 const module = uiModules.get('kibana/number_vis', ['kibana']);
 
-module.controller('KbnMetricVisController', function ($scope, Private) {
+module.controller('KbnNumberVisController', function ($scope, Private) {
     $scope.$watch('vis.params.number', function (number) {
         $scope.numberValue = number;
     });
